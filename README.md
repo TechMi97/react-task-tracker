@@ -1,3 +1,9 @@
+# completed tutorial from Traversy Media
+
+React JS Crash Course, had issues with routing and caret versioning.
+Full stack app with a dummy JSON server.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
