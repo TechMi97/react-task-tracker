@@ -95,13 +95,21 @@ const toggleReminder = async (id) => {
     <div className="container">
      <Header onAdd={() => setShowAddTask
       (!showAddTask)} showAdd={showAddTask}/>
-     {showAddTask && <AddTask onAdd={addTask}/>}
-     {tasks.length > 0 ? ( 
-     <Tasks tasks={tasks} 
-     onDelete={deleteTask} 
-     onToggle = {toggleReminder}/>):
-     ('No Tasks To show')}
       <Routes>
+     <Route path='/' element={
+       <>
+       {showAddTask && <AddTask onAdd={addTask} />}
+       {tasks.length > 0 ? (
+         <Tasks
+           tasks={tasks}
+           onDelete={deleteTask}
+           onToggle={toggleReminder}
+         />
+       ) : (
+         'No Tasks To Show'
+       )}
+     </>
+     }/> 
      <Route path='/about' element={<About/>}/>
      </Routes>
      <Footer/>
