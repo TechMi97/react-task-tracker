@@ -1,5 +1,5 @@
-# completed tutorial from Traversy Media
-
+# Completed tutorial from Traversy Media
+https://www.youtube.com/watch?v=w7ejDZ8SWv8
 React JS Crash Course, had issues with routing and caret versioning.
 Full stack app with a dummy JSON server.
 
